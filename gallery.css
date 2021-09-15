@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0a0929;
+}
+.photos {
+  width: 99%;
+  height: 100vh;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.photos img {
+  width: 20%;
+  height: 45%;
+  min-width: 300px;
+}
